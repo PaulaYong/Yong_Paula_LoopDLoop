@@ -3,7 +3,7 @@ for (var km=0; km<=10; km=km + 1){
 
 //cuando dar caramelos
 if(km > 0 && km %3===0){
-    console.log(km +" "+ "toma caramelo")
+    console.log(km+"km"+" "+ "toma caramelo")
 }
 }
 
@@ -39,6 +39,6 @@ var resultado = imputvelocidad > velocidad;
 for (var km=0; km<=10; km=km + 1){
 //cuando dar caramelos
 if(km > 0 && km %3===0 && resultado==true){
-    console.log(km +" "+ "toma caramelo")
+    console.log(km+"km"+" "+ "toma caramelo")
 }
 }
